@@ -10,4 +10,4 @@ github:
 
 # Personalización de colores (opcional para temas que lo soporten)
 color-scheme: red
-google_analytics: # Opcional: agregar tu ID de Google Analytics
+primary-color: "#D32F2F"  # Rojo oscuro
