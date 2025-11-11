@@ -47,3 +47,9 @@ desktop.ini
 # Environment variables
 .env
 .env.local
+
+# Jekyll (GitHub Pages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

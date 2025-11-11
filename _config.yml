@@ -1,0 +1,13 @@
+title: Segmentación de Clientes - Credit Card
+description: Análisis de clustering para identificar perfiles de clientes de tarjetas de crédito mediante K-Means y técnicas de machine learning
+author: Andrés España
+logo: /image.png
+theme: jekyll-theme-cayman
+show_downloads: true
+github:
+  repository_url: https://github.com/MrSpain2104/cluster
+  owner_name: MrSpain2104
+
+# Personalización de colores (opcional para temas que lo soporten)
+color-scheme: red
+google_analytics: # Opcional: agregar tu ID de Google Analytics

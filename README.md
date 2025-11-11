@@ -28,33 +28,6 @@ Ver **`diccionario_variables.md`** para descripción completa de todas las varia
 - `requirements.txt`: Dependencias necesarias
 - `CC_GENERAL_clustered.csv`: Dataset con clusters asignados (generado al ejecutar el notebook)
 
-## Guía rápida (Windows PowerShell)
-
-### 1) Crear y activar entorno virtual
-
-```powershell
-python -m venv .venv
-# Activar (PowerShell)
-.\.venv\Scripts\Activate.ps1
-```
-
-### 2) Instalar dependencias
-
-```powershell
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 3) Ejecutar Jupyter Lab
-
-```powershell
-jupyter lab
-# o
-jupyter notebook
-```
-
-Luego abre `CC_GENERAL_analysis.ipynb` y ejecuta las celdas secuencialmente.
-
 ## Estructura del análisis
 
 1. **Carga y exploración inicial**: Inspección de datos, valores faltantes, estadísticas descriptivas
@@ -72,8 +45,6 @@ Luego abre `CC_GENERAL_analysis.ipynb` y ejecuta las celdas secuencialmente.
 - Dataset exportado con clusters asignados para uso en sistemas CRM
 
 ## Notas técnicas
-
-- **hdbscan** no está incluido en requirements.txt debido a problemas de compilación en Windows. Si lo necesitas, usa conda: `conda install -c conda-forge hdbscan`
 - El análisis usa **KMeans** (simple y efectivo) y puede extenderse con DBSCAN o HDBSCAN
 - PCA mantiene ~95% de varianza para reducir dimensionalidad
 - Outliers tratados con capping (percentiles 1% y 99%)
